@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.logo{
+    width: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 18px 39px;
+    
+
+    
+}
+
+.nav-list  li a{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.nav-list  li a:hover{
+    color: rgb(228, 21, 21);
+
+
+}
+
+
+.rightNav{
+    padding: 0 16px;
+    width: 50%;
+    text-align: right;
+
+}
+
+#Search{
+    padding: 2px;
+    font-size: 17px;
+    border: 3px solid gray;
+    border-radius: 14px;
+   
+
+}
+.background{
+    background: rgb(0, 0, 0,0.7) url('../img/bg\ .jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 60%;
+}
+.firstHalf{
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+
+    
+
+}
+.secondHalf{
+    width: 30%;
+
+
+}
+.secondHalf img{
+    width: 81%;
+    border: 4px solid white;
+    border-radius: 34px;
+    display: block;
+    margin: auto;
+    
+    
+    
+}
+.text-big{
+    font-size: 31px;
+
+}   
+.text-small{
+
+    font-size: 22px;
+}
+.btn{
+    padding: 2px 5px;
+    margin: 5px 2px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 3px 5px;
+    vertical-align: revert;
+
+}
+.section{
+    height: 377px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* max-width: 7px; */
+    justify-content: space-evenly;
+    max-width: 75%;
+    font-family: 'Open Sans', sans-serif;;
+}
+.secleft{
+    height: 377px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* max-width: 7px; */
+    justify-content: space-evenly;
+    max-width: 75%;
+    flex-direction: row-reverse;
+}
+.imgFluid{
+    width: 90%;
+    border: 20px solid white;
+    border-radius: 34px;
+    display: block;
+    margin: auto;
+}
+.paras{
+    padding: 0% 50px;
+}
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.thumbnail img{
+    border: 2px solid black;
+    width: 182px;
+    padding: 5px;
+    border-radius: 73px;
+    margin-top: 24px;
+}
